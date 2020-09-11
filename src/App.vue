@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    
+    <HeaderBlock />
   </div>
 </template>
 
 <script>
-// import FrontMenu from './components/FrontMenu.vue';
+import HeaderBlock from './components/HeaderBlock.vue';
 
 export default {
   name: 'App',
   components: {
-    
+    HeaderBlock
   },
   data: function() {
     return {
