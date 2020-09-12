@@ -41,4 +41,12 @@ export default {
     color: #fffff3;
     overflow: hidden;
   }
+  .section-dark {
+    background-color: #111;
+    color: #fffff3;
+  }
+  .section-light {
+    background-color: #fffff3;
+    color: #111;
+  }
 </style>
