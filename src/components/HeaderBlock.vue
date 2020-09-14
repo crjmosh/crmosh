@@ -35,10 +35,10 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #fffff3;
     border-bottom: 15px solid #d00;
-    background-image: url('../assets/streak-vertical.svg'), url('../assets/mosh-m.svg');
-    background-position: calc(50% + 118px) 0, 10px calc(100% - 10px);
-    background-repeat: no-repeat;
-    background-size: auto 80%, 40% auto;
+    background-image: url('../assets/streak-vertical.svg'), url('../assets/mosh-m.svg'), url('../assets/grid-straight.svg');
+    background-position: calc(50% + 118px) 0, 10px calc(100% - 10px), center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: auto 80%, 40% auto, 60px;
   }
   .text-grid {
     display: inline-grid;
