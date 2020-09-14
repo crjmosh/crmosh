@@ -1,4 +1,4 @@
-# C. Ryker Mosh Portfolio
+# C. Ryker Mosh Resume Site
 
 ## Project setup
 ```
