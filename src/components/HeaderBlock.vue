@@ -38,7 +38,7 @@
     background-image: url('../assets/streak-vertical.svg'), url('../assets/mosh-m.svg'), url('../assets/grid-straight.svg');
     background-position: calc(50% + 108px) 0, 10px calc(100% - 10px), center;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size: auto 80%, 40% auto, 60px;
+    background-size: auto 80%, auto 30%, 60px;
   }
   .text-grid {
     display: inline-grid;
@@ -166,7 +166,7 @@
   }
   @media(min-width: 1200px) {
     .wrapper {
-      background-size: auto 90%, auto 60%, auto 100%;
+      background-size: auto 90%, auto 56%, auto 100%;
     }
   }
 </style>
