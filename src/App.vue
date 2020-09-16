@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HeaderBlock />
+    <AboutMe />
   </div>
 </template>
 
 <script>
 import HeaderBlock from './components/HeaderBlock.vue';
+import AboutMe from './components/AboutMe.vue';
 
 export default {
   name: 'App',
   components: {
-    HeaderBlock
+    HeaderBlock,
+    AboutMe
   },
   data: function() {
     return {
